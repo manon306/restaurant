@@ -1,0 +1,919 @@
+.malak_hassan{
+  body{
+    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+html{
+
+    scroll-behavior: smooth;/*newwwwwwwwwwwwwwwwwwwwwwww*/
+    font-size: 62.5%;
+    scroll-padding-top: 9rem;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+.malak{
+  
+  height: 3000vh;
+}
+/*_____________________________________________________"top"____________________________________________________________*/
+
+
+
+
+.malak .top{
+  text-transform: capitalize;
+  position: relative;
+  /*background: #06171F;*/
+  
+  padding: 20px;
+  color: white;
+  background-size: cover;
+  padding-bottom: 90px;
+}
+
+
+.malak .top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../imgs/blur_back.jpg");
+  filter: blur(10px); /* Apply the blur to the background */
+  
+}
+
+/* Ensure the content inside .top is not blurred */
+.malak .top .container {
+  position: relative;
+  z-index: 1; /* Ensure the content is above the blurred background */
+  
+}
+
+
+.malak .top .container .btn{
+  transition: 0.3s;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: 20px;
+  padding: 8px;
+  
+  border: 0;
+}
+.malak .top .container .btn:hover {
+ 
+ color: white;
+  background-color: #202D40;
+}
+
+.malak .top .container .coltop{
+  border-radius: 75px;
+  background-color: #e3e1e2;
+  color: #212E3F;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.malak .top .container .coltop:hover{
+  background-color: #E5CB2A;
+}
+.malak .top .container .coltop
+
+
+.malak .top .container .coltop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(10px); /* Apply the blur to the background */
+  
+}
+
+
+
+.malak .top .container .coltop .top_p3{
+  position: relative;
+  z-index: 1; /* Ensure the content is above the blurred background */
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+  .container {
+      width: 750px;
+      
+  }
+  .visible-sm {
+      display: block !important
+  }
+  .hidden-sm {
+      display: none !important
+  }
+  .grid-start{
+      flex: 0 0 auto !important;
+      width: 100%;
+    
+  }
+  .grid-drinks{
+    gap: 0 !important;
+    display: grid !important;
+  }
+  .grid-col-drinks{
+    width: 100% !important;
+  }
+  .grid-dineer{
+    display: grid !important;
+    gap: 1%;
+  }
+  .text-top{
+    text-align: center !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< "Start" >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+.malak .start{
+  width: 100%;
+  background-color: #C2C5C1;
+  margin-top: 100px;
+ 
+}
+
+.malak .start .introtext  h1{
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.malak .start .container{
+ 
+  border-radius: 20px;
+ padding-top: 0;
+  padding: 20px;
+  
+
+  
+}
+
+
+
+
+
+
+
+.malak .start .container .circle {
+  color: white;
+  padding-top: 20px;
+  border-radius: 23px;
+}
+
+.malak .start .container .circle p {
+   font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: full-width; 
+
+
+ 
+}
+
+
+
+
+
+.malak .start .container .circle svg {
+  display: block;
+
+  position: relative;
+  width: 344px;
+  height: 344px;
+  overflow: visible; 
+  background-color: #F2B705;
+  border-radius: 50%;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+
+#circlesvg {
+    display: block;
+    
+    transition: transform 0.5s ease-in-out;
+}
+
+.option {
+    cursor: pointer;
+    fill: white;
+    font-size: 24px;
+    transition: fill 0.3s ease;
+}
+
+.option.active {
+    fill: #FF5722; /* Highlight color for selected option */
+    color: #FF5722;
+  }
+
+
+
+/*__________________________________________________________"lunch"_________________________________________*/
+
+
+
+
+.malak .lunch{
+  margin-top: 100px;
+  background-color: #ffb30e;
+  text-transform: capitalize;
+  font-size: 20px;
+  transition: 0.3s;
+  font-weight: 600;
+}
+.malak .lunch .container{
+  padding: 25px;
+}
+.malak .lunch .container .text{
+  margin-bottom: 5%;
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.malak .lunch  .childrow{
+  gap: 1%;
+  row-gap: 1%;
+}
+.malak .lunch  .childrow .childcol{
+    background-color: #f7f7f7;
+    box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+    border-radius: 10%;
+    transition: 0.3s;
+    margin-bottom: 3%;
+ 
+}
+
+.malak .lunch  .childrow .childcol:hover{
+  background-color: #ffb30e;
+}
+.malak .lunch  .childrow .childcol .btn{
+  transition: 0.3s;
+  text-transform: capitalize;
+  font-size: 17px;
+  
+}
+.malak .lunch  .childrow .childcol:hover .btn{
+
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 767px) {
+
+  .visible-xs {
+      display: block !important
+  }
+  .hidden-xs {
+      display: none !important
+  }
+  .responsive-paragraph {
+      text-align: center;
+      font-size: 20px !important
+  }
+  .grid-start{
+      flex: 0 0 auto !important;
+      width: 100%;
+    
+  }
+  .grid-lunch{
+    display: grid !important;
+    gap: 1%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"breakfast">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>....*/
+
+
+
+
+
+.malak .breakfast {
+  margin-top: 100px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #ffb30e;
+}
+
+.malak .breakfast .container .text{
+  margin-bottom: 5%;
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.malak .breakfast  .rowp3{
+  background-color: #f7f7f7;
+      box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+      border-radius: 20px;
+      transition: 0.3s;
+      padding: 10px;
+      font-size: 23px;
+      text-transform: capitalize;
+
+}
+
+.malak .breakfast  .rowp3:hover{
+  background-color: #f17228;
+}
+.malak .breakfast  .rowp3 .btn{
+  transition: 0.3s;
+  text-transform: capitalize;
+  font-size: 17px;
+ 
+  
+}
+.malak .breakfast  .rowp3:hover .btn{
+
+  background-color: #f7f7f7;
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+  .container {
+      width: 750px;
+  }
+  .visible-sm {
+      display: block !important
+  }
+  .hidden-sm {
+      display: none !important
+  }
+  .grid-breakfast{
+    flex: 0 0 auto !important;
+    width: 100%;
+  
+}
+  
+ 
+}
+
+
+
+
+
+/*________________________________________________"drinks"_________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.malak .drinks{
+
+  margin-top: 100px;
+  background-color: #f1a4b6;
+  font-size: 25px;
+  text-transform: capitalize;
+
+}
+
+.malak .drinks .coldrink{
+  background-color: #ffb30e;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+
+.malak .drinks  .coldrink{
+  background-color: #f7f7f7;
+      box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+      border-radius: 20px;
+      transition: 0.3s;
+      padding: 10px;
+      font-size: 23px;
+      text-transform: capitalize;
+
+}
+
+.malak .drinks  .coldrink:hover{
+  background-color: #f17228;
+}
+.malak .drinks  .coldrink .btn{
+  transition: 0.3s;
+  text-transform: capitalize;
+  font-size: 17px;
+ 
+  border-radius: 20px;
+  
+}
+.malak .drinks  .coldrink:hover .btn{
+
+  background-color: #f7f7f7;
+}
+
+.malak .drinks .container .text{
+  margin-bottom: 5%;
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+
+
+@media (max-width: 767px) {
+
+  .visible-xs {
+      display: block !important
+  }
+  .hidden-xs {
+      display: none !important
+  }
+  .responsive-paragraph {
+      text-align: center;
+      font-size: 20px !important
+  }
+  .grid-start{
+      flex: 0 0 auto !important;
+      width: 100%;
+    
+  }
+  .grid-dineer{
+    display: grid !important;
+    gap: 1%;
+  }
+  
+.grid-drinks{
+  gap: 0 !important;
+  display: grid !important;
+}
+.grid-col-drinks{
+  width: 100% !important;
+}
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+  .container {
+      width: 750px;
+      
+  }
+  .visible-sm {
+      display: block !important
+  }
+  .hidden-sm {
+      display: none !important
+  }
+  .grid-start{
+      flex: 0 0 auto !important;
+      width: 100%;
+    
+  }
+  .grid-drinks{
+    gap: 0 !important;
+    display: grid !important;
+  }
+  .grid-col-drinks{
+    width: 100% !important;
+  }
+  
+}
+
+
+/*________________________________________________________"dinner"_____________________________________________*/
+
+
+
+
+
+
+.malak .dinner{
+
+  background-color: #FDE100;
+  margin-top: 100px;
+}
+.malak .dinner .rowdinner{
+
+  background-color: #E8DFD6;
+  box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 20px;
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+
+.malak .dinner .rowdinner .coldinner{
+
+  background-color: #FDE100;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+
+
+
+.malak .dinner .rowdinner .coldinner:hover{
+  background-color: #f17228;
+}
+
+.malak .dinner .rowdinner .coldinner .btn{
+  transition: 0.3s;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: 20px;
+  width: 50%;
+}
+.malak .dinner .rowdinner .coldinner:hover .btn{
+
+  background-color: #f7f7f7;
+}
+
+
+
+.malak .dinner .container .text{
+  margin-bottom: 5%;
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+/*___________________________________________________________"deesserts"________________________________________________________*/
+
+
+
+
+.malak .deesserts{
+  margin-top: 100px;
+  background-color: #FDE100;
+   font-size: 25px;
+  text-transform: capitalize;
+
+}
+
+.malak .deesserts .rowdeessert .colddeessert {
+  background-color: #FDE100;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative; /* Required for the ::before pseudo-element to position itself relative to this element */
+}
+
+.malak .deesserts .rowdeessert .colddeessert::before {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  width: 100%; /* Makes the width of ::before match the parent element */
+  height: 100%; /* Matches the height of the parent element */
+  transition: 0.3s;
+  top: 0; /* Aligns the ::before at the top */
+  left: 0; /* Aligns the ::before at the left */
+  border-radius: 20px; /* Matches the border radius of the parent */
+}
+
+.malak .deesserts .rowdeessert .colddeessert:hover::before {
+  background-color: #0006; /* Applies the hover effect */
+}
+
+
+.malak .deesserts .rowdeessert .colddeessert .coldis .btn{
+  transition: 0.3s;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: 20px;
+  color: transparent ;
+  background-color: transparent ;
+  border: 0;
+  
+}
+.malak .deesserts .rowdeessert .colddeessert:hover .coldis .btn{
+  color: white;
+  background-color: #ffc107;
+
+}
+
+
+
+.malak .deesserts .rowdeessert .colddeessert .coldis{
+  color: transparent !important;
+  color: white;
+  transition: 0.3s;
+  z-index: 1;
+  position: relative;
+ 
+  color: white;
+  text-transform: capitalize;
+  text-transform: capitalize;
+  
+
+}
+
+
+.malak .deesserts .rowdeessert .colddeessert:hover  .coldis{
+  display: block;
+  color: white !important;
+  
+}
+
+
+.malak .deesserts .container .text{
+  margin-bottom: 5%;
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+  .container {
+      width: 750px;
+      
+  }
+  .visible-sm {
+      display: block !important
+  }
+  .hidden-sm {
+      display: none !important
+  }
+  .grid-start{
+      flex: 0 0 auto !important;
+      width: 100%;
+    
+  }
+  .grid-drinks{
+    gap: 0 !important;
+    display: grid !important;
+  }
+  .grid-col-drinks{
+    width: 100% !important;
+  }
+  .grid-dineer{
+    display: grid !important;
+    gap: 1%;
+  }
+
+}
+
+
+
+
+
+#imgpizza{
+  position: relative;
+  animation: upAndDown 5s ease-in-out infinite;
+  
+}
+
+@keyframes upAndDown {
+  0% {
+      top: 0;
+  }
+  50% {
+      top: 45px; /* Adjust the vertical distance here */
+  }
+  100% {
+      top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+  .visible-xs {
+      display: block !important
+  }
+  .hidden-xs {
+      display: none !important
+  }
+  .responsive-paragraph {
+      text-align: center;
+      font-size: 20px !important
+  }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+  .container {
+      width: 750px
+  }
+  .visible-sm {
+      display: block !important
+  }
+  .hidden-sm {
+      display: none !important
+  }
+  
+ 
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) { /* Medium Screen Rules */
+.container {
+    width: 970px
+}
+.visible-md {
+    display: block !important
+}
+.hidden-md {
+    display: none !important
+}
+}
+
+@media (min-width: 1200px) { /* Large Screen Rules */
+.container {
+    width: 1170px
+}
+.visible-lg {
+    display: block !important
+}
+.hidden-lg {
+    display: none !important
+}
+}
+
+
+  /* Start My Framework */
+
+.container {
+margin: auto;
+padding-left: 15px;
+padding-right: 15px
+}
+
+.text-center {
+text-align: center
+}
+
+.clearfix {
+clear: both
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+display: none
+}
+
+.float-left {
+float: left
+}
+
+.float-right {
+float: right
+}
+
+.h1 {
+font-size: 2em
+}
+
+.responsive-paragraph {
+line-height: 1.8;
+font-size: 22px
+}
+
+.responsive-image {
+width: 100%;
+}
+
+.classic-list {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.img-circle {
+border-radius: 50%
+}
+
+.img-thumbnail {
+padding: 3px;
+background-color: #FFF;
+border: 1px solid #CCC
+}
+.blurred-background {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.336);
+backdrop-filter: blur(10px); /* Add blur effect */
+-webkit-backdrop-filter: blur(10px); /* For Safari */
+z-index: 1; /* Ensure the blur effect is behind the content */
+transition: 0.3s;
+}
+
+  /* End My Framework */
+
+
+
+
+
+
+
+
+
+
+
+}

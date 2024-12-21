@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Payment</title>
+    <link href="style/img/master_card-removebg-preview.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="style/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../r.css" rel="stylesheet">
+    </head>
+    <div class="mai">
+        <body style="background-image: url('style/img/4a97b71371ec8db3b22791a9a6477e02.png'); background-size: cover;">
+        <div class="text-center">
+            <h1>Order confirmation</h1>
+        </div>
+        <div class="payment-options">
+            <label for="credit-card" class="payment-card">
+                <input type="radio" id="credit-card" name="payment-option" class="radio-input">
+                <div class="card-logo">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+                <div class="card-info">
+                    <span class="card-label">Credit Card</span>
+                </div>
+            </label>
+    
+            <label for="delivery" class="payment-card">
+                <input type="radio" id="delivery" name="payment-option" class="radio-input">
+                <div class="card-logo">
+                    <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <div class="card-info">
+                    
+                        <span class="card-label">Cash</span>
+                    
+                </div>
+            </label>
+        </div>
+
+        <div id="card-info-section" class="card-info-section" style="display: none;">
+            <h3>Enter Credit Card Information</h3>
+            <form id="credit-card-form">
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="Enter your card number" required>
+                <br>
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                <br>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                <br>
+                <label for="name-on-card">Name on Card:</label>
+                <input type="text" id="name-on-card" name="name-on-card" placeholder="Full Name" required>
+                <br>
+                <button type="submit" onclick="window.open('../../r.html')">Submit</button>
+            </form>
+            <p id="error-message" style="color: red; display: none;"></p>
+        </div>
+        
+        
+        <!-- <div class="deliv">
+            <label for="delivery" class="delivery">
+                <input type="radio" id="delivery" name="payment-option" class="radio-input">
+                <div class="card-logo">  
+                    <i class="fa-solid fa-motorcycle" style="color: burlywood; font-size: 25px;"></i>                    
+                </div>  
+                <div class="card-info">  
+                    <span class="card-label">Cash on delivery</span>  
+                </div>
+            </label> 
+        </div> -->
+        
+    <div id="time" class="ti" style="display: none;">
+        <div class="time">
+            <p style="padding-right: 74px;">Estimated prepare time:</p>
+            <h5>20-30 min</h5>
+        </div>
+        <div class="order">
+            <button onclick="window.open('../../r.html')">Place order</button>
+        </div>
+    </div>
+    </body>
+    <script src="style/js/bootstrap.bundle.min.js"></script>
+    <script src="./style/js/main.js"></script>
+    </div>
+    
+    
+    
+</html>

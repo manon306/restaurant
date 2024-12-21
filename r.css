@@ -1,0 +1,1553 @@
+.menna_hesham{
+    .navbar-brand{
+        font-size: 40px;
+        color: rgb(140, 92, 3);
+    }
+    .nav-link{
+        color: rgb(175, 117, 10);
+        text-align: center;transition: all 0.3 ease-in-out;
+    }
+    .nav-item{transition: all 0.3 ease-in-out;
+      margin: auto 5px;
+      text-align: center;
+    }
+    .fl{
+        font-size: 4rem;
+        font-weight: bold;
+        color: rgb(216, 146, 16);
+        text-shadow: 
+            1px 1px 0px #2c3e50, 
+            2px 2px 0px #2c3e50, 
+            3px 3px 0px #2c3e50, 
+            4px 4px 0px #2c3e50
+    }
+    .nav-item:hover{
+        width: 80px;
+        border-radius: 20%;
+        background-color: rgb(205, 152, 7);
+        transform: scale(1.1);
+        margin: auto;
+        width: fit-content;
+    }
+    .ll{
+        background-color: rgb(47, 46, 46);
+        color: white !important;
+        border-radius: 20%;
+        margin-right: 10px;
+    }
+    .p1{
+        background: #222222; 
+        height: 670px;
+        padding: 80px;
+        background-image: url('./bluured.jpg');
+        background-size: cover;
+        
+        border-bottom: rgb(205, 152, 7) solid 15px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .spe{
+        color: rgb(153, 103, 8);
+        font-weight: bolder;
+        i{
+            font-size: 100px;
+            padding-left: 100px;
+        }
+    }
+    .triangle-image {
+        width: 605px;
+        height: 610px;
+    }
+    .im1{
+            position: relative;
+            left: 50%;
+            top: -330px;
+            border: none;
+            border-radius: 30%;
+        }
+        /*contact*/
+        
+    .f_C{
+        height: 700px;
+            background-image: url("./bluured.jpg");
+            background-size: cover;
+            .contact{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .contact .content{
+                width: 500px;
+                text-align: center;
+            } 
+            .contact .content h2{
+                font-size: 36px;
+                font-weight: 500;
+                color: rgb(229, 155, 17);
+                z-index: 999;
+            }
+            .contact .content p{
+                font-weight: 300;
+                color: white;
+                z-index: 999;
+            }
+            .container{
+                width: 1000px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                
+            } 
+            .container .contactinfo{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+            .container .contactinfo .box{
+                position: relative;
+                padding: 20px 0;
+                display: flex;
+            }
+            .container .contactinfo .box .icon{
+                min-width: 60px;
+                height: 60px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                font-size: 22px;
+            }
+            .container .contactinfo .box .text{
+                display: flex;
+                margin-left: 20px;
+                font-size: 16px;
+                color: white;
+                flex-direction: column;
+                font-weight: 300;
+            }
+            .container .contactinfo .box .text h3{
+                font-weight: 500;
+                color: rgb(227, 156, 25);
+            }
+            .contactform{
+                width: 50%;
+                padding: 40px;
+                background-color: white;
+            }
+            .contactform h2{
+                font-size: 30px;
+                color: #333;
+                font-weight: 500;
+            }
+            .contactform .input_box{
+                position: relative;
+                margin-top: 10px;
+                width: 100%;
+            }
+            .contactform .input_box input,
+            .contactform .input_box textarea{
+                width: 100%;
+                padding: 5px 0;
+                font-size: 16px;
+                margin: 10px 0;
+                border: none;
+                border-bottom: 2px solid#333;
+                outline: none;
+            }
+            .contactform .input_box span{
+                position: absolute;
+                left: 0px;
+                padding: 5px 0;
+                font-size: 16px;
+                margin: 10px 0;
+                pointer-events: none;
+                transition: .5s;
+                color: #666;
+            }
+            .contactform .input_box input:focus ~ span,
+            .contactform .input_box input:valid ~ span,
+            .contactform .input_box textarea:focus ~ span,
+            .contactform .input_box textarea:valid ~ span{
+                color: #e91e63;
+                font-size: 12px;
+                transform: translateY(-20px);
+            }
+            .contactform .input_box input[type="submit"]
+            {
+                width: 100%;
+                color: white;
+                background-color: rgb(216, 146, 16);
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 18px;
+            }
+            @media (max-width:991px)
+            {
+                .contact{
+                    padding: 50px;
+                }
+                .container{
+                    flex-direction: column;
+                }
+                .container .contactinfo{
+                    margin-bottom: 40px;
+                }
+            }
+        }
+        
+        .p2,.p3,.p5,.p4{
+            background-color: #333;
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            border-bottom: rgb(205, 152, 7) solid 15px;
+        }
+        /*page3*/
+        .p3{
+            background-image: url('./ourchef.jpg');
+            background-size: cover;
+            .x{
+                font-size: 30px;
+                color: #222222 !important;
+            }
+        }
+        .p4{
+            padding: 20px;
+            .item1,.item2,.item3,.item4,.item5{
+                width: 220px;
+                height: 300px;
+                border-radius: 20%;
+                background-color: white;
+                padding: 10px;
+                box-shadow: rgb(173, 102, 9) 10px 10px 3px, rgb(210, 128, 20) 20px 10px 3px;
+                margin: 20px;
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                }
+                h3{
+                    color: rgb(173, 102, 9);
+                }
+                
+            }
+            .item1:hover,.item2:hover,.item3:hover,.item4:hover,.item5:hover{
+              transform: scale(1.1);
+            }
+        }
+        .p5{
+            border-bottom: rgb(205, 152, 7) solid 15px;
+            h1{
+                color: #f5f5f5;
+                position: relative;
+                top: 20px;
+                
+
+            }
+            .carousel-item{
+                width: 500px;
+                height: 500px;
+                padding: 10px;
+                margin-top: 30px;
+            }
+            
+            .d-block{
+                position: relative;
+                left: -90%;
+                border-radius: 30%;
+            }
+        }
+        
+        footer{
+            background: #24262b;
+            border-bottom: rgb(205, 152, 7) solid 15px;
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            ul{
+                list-style: none;
+            }
+            .footer{
+                background-color: #24262b;
+                    padding: 70px 0;
+                    
+            }
+            .footer-col{
+                width: 25%;
+                padding: 0 15px;
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+            }
+            .footer-col h4::before{
+                content: '';
+                position: absolute;
+                left:0;
+                bottom: -10px;
+                background-color: #e91e63;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+            .footer-col ul li:not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #ffffff;
+                padding-left: 8px;
+            }
+            .footer-col .social-links a{
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255,255,255,0.2);
+                margin:0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #ffffff;
+                transition: all 0.5s ease;
+            }
+            .footer-col .social-links a:hover{
+                color: #24262b;
+                background-color: #ffffff;
+            }
+            /*responsive*/
+            @media(max-width: 767px){
+                .footer-col{
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+            }
+            @media(max-width: 574px){
+                .footer-col{
+                    width: 100%;
+                }
+            }
+        }
+        
+}
+
+.mai{
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+    }
+    
+    .text-center {
+        padding-top: 35px;
+        color: orangered;
+        background-color: blanchedalmond;
+        padding-bottom: 35px;
+    }
+    
+    .radio-input {
+        display: none;
+    }
+    
+    .payment-options {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 25px;
+    }
+    
+    .payment-card {
+        background-color: #1b1b1b;
+        border-radius: 15px;
+        width: 200px;
+        text-align: center;
+        padding: 20px;
+        cursor: pointer;
+        color: white;
+        transition: background-color 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .payment-card:hover {
+        background-color: #ff4500;
+    }
+    
+    .card-logo i {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .card-info {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .card-info-section {
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    label{
+        margin: 5px;
+    }
+    
+    .card-info-section h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .card-info-section form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card-info-section input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .card-info-section button {
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    
+    .time{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ti{
+        display: block;
+        background-color: #f5f5f5;
+        width: 400px;
+        padding: 15px;
+        margin: 15px auto;
+        border-radius: 15px;
+    }
+    
+    .order{
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .order p {
+        font-size: 18px;
+        color: #333; 
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .order button {
+        background-color: orangered; 
+        color: white; 
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+    .section-mai {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form-mai {
+        margin-top: 40px;
+        padding: 40px;
+        background-color: #fcfcfc;
+        border-radius: 10px;
+        width: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-mai label {
+        font-size: 1.2em;
+    }
+    
+    .form-mai input[type="text"],
+    .form-mai input[type="email"],
+    .form-mai input[type="tel"],
+    .form-mai textarea{
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 1px solid orangered;
+    }
+    
+    .form-mai textarea {
+        min-height: 85px;
+    }
+    
+    .form-mai input[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 8px;
+        background-color: orangered;
+        color: #ffffff;
+        font-size: 1.1em;
+    }
+    
+}
+
+.seif2{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-color: #f9f9f9;
+    }
+    
+    ::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('./SA/SA/images/5694895-restaurant-wallpapers.jpg');
+        background-size: cover;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        z-index: -1; 
+    }
+    
+    .seif .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        text-align: center;
+    }
+    
+    .seif h1 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .seif form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .seif label {
+        font-size: 14px;
+        color: #555;
+        text-align: left;
+    }
+    
+    .seif input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .seif button {
+        background-color: #c8770e;
+        color: #fff;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .seif button:hover {
+        background-color: #218838;
+    }
+    
+    .seif #confirmationMessage {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #28a745;
+    }
+    
+}
+
+
+    .malak_hassan{
+      
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+      font-family: "EB Garamond", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-family: "Domine", serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    }
+      /*_____________________________________________________"top"____________________________________________________________*/
+      
+      
+      
+      
+      
+    
+    
+    
+    .malak{
+      
+      height: 1500vh;
+    }
+    /*_____________________________________________________"top"____________________________________________________________*/
+    
+    
+    
+    
+    .malak .top{
+      text-transform: capitalize;
+      position: relative;
+      /*background: #06171F;*/
+      
+      padding: 20px;
+      color: white;
+      background-size: cover;
+      padding-bottom: 90px;
+    }
+    
+    
+    .malak .top::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("imgs/imgs/blur_back.jpg");
+      filter: blur(10px); /* Apply the blur to the background */
+      
+    }
+    
+    /* Ensure the content inside .top is not blurred */
+    .malak .top .container {
+      position: relative;
+      z-index: 1; /* Ensure the content is above the blurred background */
+      
+    }
+    
+    
+    .malak .top .container .btn{
+      transition: 0.3s;
+      text-transform: capitalize;
+      font-size: 17px;
+      border-radius: 20px;
+      padding: 8px;
+      
+      border: 0;
+    }
+    .malak .top .container .btn:hover {
+     
+     color: white;
+      background-color: #202D40;
+    }
+    
+    .malak .top .container .coltop{
+      border-radius: 75px;
+      background-color: #e3e1e2;
+      color: #212E3F;
+      text-transform: capitalize;
+      font-weight: bold;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+    .malak .top .container .coltop:hover{
+      background-color: #E5CB2A;
+    }
+    .malak .top .container .coltop
+    
+    
+    .malak .top .container .coltop::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      filter: blur(10px); /* Apply the blur to the background */
+      
+    }
+    
+    
+    
+    .malak .top .container .coltop .top_p3{
+      position: relative;
+      z-index: 1; /* Ensure the content is above the blurred background */
+    }
+    
+    @media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+      .container {
+          width: 750px;
+          
+      }
+      .visible-sm {
+          display: block !important
+      }
+      .hidden-sm {
+          display: none !important
+      }
+      .grid-start{
+          flex: 0 0 auto !important;
+          width: 100%;
+        
+      }
+      .grid-drinks{
+        gap: 0 !important;
+        display: grid !important;
+      }
+      .grid-col-drinks{
+        width: 100% !important;
+      }
+      .grid-dineer{
+        display: grid !important;
+        gap: 1%;
+      }
+      .text-top{
+        text-align: center !important;
+      }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< "Start" >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    
+    
+    .malak .start{
+      width: 100%;
+      background-color: #C2C5C1;
+      margin-top: 100px;
+     
+    }
+    
+    .malak .start .introtext  h1{
+      font-size: 80px;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .malak .start .container{
+     
+      border-radius: 20px;
+     padding-top: 0;
+      padding: 20px;
+      
+    
+      
+    }
+    
+    
+    
+    
+    
+    
+    
+    .malak .start .container .circle {
+      color: white;
+      padding-top: 20px;
+      border-radius: 23px;
+    }
+    
+    .malak .start .container .circle p {
+       font-size: 2.2rem;
+      font-weight: bold;
+      text-transform: full-width; 
+    
+    
+     
+    }
+    
+    
+    
+    
+    
+    .malak .start .container .circle svg {
+      display: block;
+    
+      position: relative;
+      width: 344px;
+      height: 344px;
+      overflow: visible; 
+      background-color: #F2B705;
+      border-radius: 50%;
+      font-size: 30px;
+      text-transform: capitalize;
+    }
+    
+    
+    #circlesvg {
+        display: block;
+        
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .option {
+        cursor: pointer;
+        fill: white;
+        font-size: 24px;
+        transition: fill 0.3s ease;
+    }
+    
+    .option.active {
+        fill: #FF5722; /* Highlight color for selected option */
+        color: #FF5722;
+      }
+    
+    
+    
+    /*__________________________________________________________"lunch"_________________________________________*/
+    
+    
+    
+    
+    .malak .lunch{
+      margin-top: 100px;
+      background-color: #ffb30e;
+      text-transform: capitalize;
+      font-size: 20px;
+      transition: 0.3s;
+      font-weight: 600;
+    }
+    .malak .lunch .container{
+      padding: 25px;
+    }
+    .malak .lunch .container .text{
+      margin-bottom: 5%;
+      font-size: 80px;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      
+    }
+    .malak .lunch  .childrow{
+      gap: 1%;
+      row-gap: 1%;
+    }
+    .malak .lunch  .childrow .childcol{
+        background-color: #f7f7f7;
+        box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+        border-radius: 10%;
+        transition: 0.3s;
+        margin-bottom: 3%;
+     
+    }
+    
+    .malak .lunch  .childrow .childcol:hover{
+      background-color: #ffb30e;
+    }
+    .malak .lunch  .childrow .childcol .btn{
+      transition: 0.3s;
+      text-transform: capitalize;
+      font-size: 17px;
+      
+    }
+    .malak .lunch  .childrow .childcol:hover .btn{
+    
+      background-color: #f7f7f7;
+    }
+    
+    @media (max-width: 767px) {
+    
+      .visible-xs {
+          display: block !important
+      }
+      .hidden-xs {
+          display: none !important
+      }
+      .responsive-paragraph {
+          text-align: center;
+          font-size: 20px !important
+      }
+      .grid-start{
+          flex: 0 0 auto !important;
+          width: 100%;
+        
+      }
+      .grid-lunch{
+        display: grid !important;
+        gap: 1%;
+      }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"breakfast">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>....*/
+    
+    
+    
+    
+    
+    .malak .breakfast {
+      margin-top: 100px;
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: #ffb30e;
+    }
+    
+    .malak .breakfast .container .text{
+      margin-bottom: 5%;
+      font-size: 80px;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      
+    }
+    .malak .breakfast  .rowp3{
+      background-color: #f7f7f7;
+          box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+          border-radius: 20px;
+          transition: 0.3s;
+          padding: 10px;
+          font-size: 23px;
+          text-transform: capitalize;
+    
+    }
+    
+    .malak .breakfast  .rowp3:hover{
+      background-color: #f17228;
+    }
+    .malak .breakfast  .rowp3 .btn{
+      transition: 0.3s;
+      text-transform: capitalize;
+      font-size: 17px;
+     
+      
+    }
+    .malak .breakfast  .rowp3:hover .btn{
+    
+      background-color: #f7f7f7;
+    }
+    
+    
+    
+    
+    
+    
+    @media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+      .container {
+          width: 750px;
+      }
+      .visible-sm {
+          display: block !important
+      }
+      .hidden-sm {
+          display: none !important
+      }
+      .grid-breakfast{
+        flex: 0 0 auto !important;
+        width: 100%;
+      
+    }
+      
+     
+    }
+    
+    
+    
+    
+    
+    /*________________________________________________"drinks"_________________________________________*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .malak .drinks{
+    
+      margin-top: 100px;
+      background-color: #f1a4b6;
+      font-size: 25px;
+      text-transform: capitalize;
+    
+    }
+    
+    .malak .drinks .coldrink{
+      background-color: #ffb30e;
+      border-radius: 20px;
+      padding: 20px;
+    
+    }
+    
+    
+    .malak .drinks  .coldrink{
+      background-color: #f7f7f7;
+          box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+          border-radius: 20px;
+          transition: 0.3s;
+          padding: 10px;
+          font-size: 23px;
+          text-transform: capitalize;
+    
+    }
+    
+    .malak .drinks  .coldrink:hover{
+      background-color: #f17228;
+    }
+    .malak .drinks  .coldrink .btn{
+      transition: 0.3s;
+      text-transform: capitalize;
+      font-size: 17px;
+     
+      border-radius: 20px;
+      
+    }
+    .malak .drinks  .coldrink:hover .btn{
+    
+      background-color: #f7f7f7;
+    }
+    
+    .malak .drinks .container .text{
+      margin-bottom: 5%;
+      font-size: 80px;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      
+    }
+    
+    
+    
+    
+    @media (max-width: 767px) {
+    
+      .visible-xs {
+          display: block !important
+      }
+      .hidden-xs {
+          display: none !important
+      }
+      .responsive-paragraph {
+          text-align: center;
+          font-size: 20px !important
+      }
+      .grid-start{
+          flex: 0 0 auto !important;
+          width: 100%;
+        
+      }
+      .grid-dineer{
+        display: grid !important;
+        gap: 1%;
+      }
+      
+    .grid-drinks{
+      gap: 0 !important;
+      display: grid !important;
+    }
+    .grid-col-drinks{
+      width: 100% !important;
+    }
+    
+    }
+    
+    
+    
+    
+    
+    @media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+      .container {
+          width: 750px;
+          
+      }
+      .visible-sm {
+          display: block !important
+      }
+      .hidden-sm {
+          display: none !important
+      }
+      .grid-start{
+          flex: 0 0 auto !important;
+          width: 100%;
+        
+      }
+      .grid-drinks{
+        gap: 0 !important;
+        display: grid !important;
+      }
+      .grid-col-drinks{
+        width: 100% !important;
+      }
+      
+    }
+    
+    
+    /*________________________________________________________"dinner"_____________________________________________*/
+    
+    
+    
+    
+    
+    
+    .malak .dinner{
+    
+      background-color: #FDE100;
+      margin-top: 100px;
+    }
+    .malak .dinner .rowdinner{
+    
+      background-color: #E8DFD6;
+      box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.062);
+      border-radius: 20px;
+      transition: 0.3s;
+      padding: 20px;
+      font-size: 23px;
+      text-transform: capitalize;
+    }
+    
+    
+    .malak .dinner .rowdinner .coldinner{
+    
+      background-color: #FDE100;
+      padding: 20px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+    
+    
+    
+    
+    .malak .dinner .rowdinner .coldinner:hover{
+      background-color: #f17228;
+    }
+    
+    .malak .dinner .rowdinner .coldinner .btn{
+      transition: 0.3s;
+      text-transform: capitalize;
+      font-size: 17px;
+      border-radius: 20px;
+      width: 50%;
+    }
+    .malak .dinner .rowdinner .coldinner:hover .btn{
+    
+      background-color: #f7f7f7;
+    }
+    
+    
+    
+    .malak .dinner .container .text{
+      margin-bottom: 5%;
+      font-size: 80px;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      
+    }
+    
+    
+    /*___________________________________________________________"deesserts"________________________________________________________*/
+    
+    
+    
+    
+    .malak .deesserts{
+      margin-top: 100px;
+      background-color: #FDE100;
+       font-size: 25px;
+      text-transform: capitalize;
+    
+    }
+    
+    .malak .deesserts .rowdeessert .colddeessert {
+      background-color: #FDE100;
+      padding: 20px;
+      border-radius: 20px;
+      transition: 0.3s;
+      position: relative; /* Required for the ::before pseudo-element to position itself relative to this element */
+    }
+    
+    .malak .deesserts .rowdeessert .colddeessert::before {
+      content: "";
+      background-color: transparent;
+      position: absolute;
+      width: 100%; /* Makes the width of ::before match the parent element */
+      height: 100%; /* Matches the height of the parent element */
+      transition: 0.3s;
+      top: 0; /* Aligns the ::before at the top */
+      left: 0; /* Aligns the ::before at the left */
+      border-radius: 20px; /* Matches the border radius of the parent */
+    }
+    
+    .malak .deesserts .rowdeessert .colddeessert:hover::before {
+      background-color: #0006; /* Applies the hover effect */
+    }
+    
+    
+    .malak .deesserts .rowdeessert .colddeessert .coldis .btn{
+      transition: 0.3s;
+      text-transform: capitalize;
+      font-size: 17px;
+      border-radius: 20px;
+      color: transparent ;
+      background-color: transparent ;
+      border: 0;
+      
+    }
+    .btn a{
+      background-color: transparent ;
+      color: transparent;
+      display: none;
+    }
+    .malak .deesserts .rowdeessert .colddeessert:hover .coldis .btn {
+      color: white;
+      background-color: #ffc107;
+      a{
+        display: block;
+      }
+    }
+    
+    
+    
+    .malak .deesserts .rowdeessert .colddeessert .coldis{
+      color: transparent !important;
+      color: white;
+      transition: 0.3s;
+      z-index: 1;
+      position: relative;
+     
+      color: white;
+      text-transform: capitalize;
+      text-transform: capitalize;
+      
+    
+    }
+    
+    
+    .malak .deesserts .rowdeessert .colddeessert:hover  .coldis{
+      display: block;
+      color: white !important;
+      
+    }
+    
+    
+    .malak .deesserts .container .text{
+      margin-bottom: 5%;
+      font-size: 80px;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      
+    }
+    
+    @media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+      .container {
+          width: 750px;
+          
+      }
+      .visible-sm {
+          display: block !important
+      }
+      .hidden-sm {
+          display: none !important
+      }
+      .grid-start{
+          flex: 0 0 auto !important;
+          width: 100%;
+        
+      }
+      .grid-drinks{
+        gap: 0 !important;
+        display: grid !important;
+      }
+      .grid-col-drinks{
+        width: 100% !important;
+      }
+      .grid-dineer{
+        display: grid !important;
+        gap: 1%;
+      }
+    
+    }
+    
+    
+    
+    
+    
+    #imgpizza{
+      position: relative;
+      animation: upAndDown 5s ease-in-out infinite;
+      
+    }
+    
+    @keyframes upAndDown {
+      0% {
+          top: 0;
+      }
+      50% {
+          top: 45px; /* Adjust the vertical distance here */
+      }
+      100% {
+          top: 0;
+      }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width: 767px) {
+    
+      .visible-xs {
+          display: block !important
+      }
+      .hidden-xs {
+          display: none !important
+      }
+      .responsive-paragraph {
+          text-align: center;
+          font-size: 20px !important
+      }
+     
+    }
+    
+    @media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+      .container {
+          width: 750px
+      }
+      .visible-sm {
+          display: block !important
+      }
+      .hidden-sm {
+          display: none !important
+      }
+      
+     
+    }
+    
+    
+    
+    
+    @media (min-width: 992px) and (max-width: 1199px) { /* Medium Screen Rules */
+    .container {
+        width: 970px
+    }
+    .visible-md {
+        display: block !important
+    }
+    .hidden-md {
+        display: none !important
+    }
+    }
+    
+    @media (min-width: 1200px) { /* Large Screen Rules */
+    .container {
+        width: 1170px
+    }
+    .visible-lg {
+        display: block !important
+    }
+    .hidden-lg {
+        display: none !important
+    }
+    }
+    
+    
+      /* Start My Framework */
+    
+    .container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px
+    }
+    
+    .text-center {
+    text-align: center
+    }
+    
+    .clearfix {
+    clear: both
+    }
+    
+    .visible-xs,
+    .visible-sm,
+    .visible-md,
+    .visible-lg {
+    display: none
+    }
+    
+    .float-left {
+    float: left
+    }
+    
+    .float-right {
+    float: right
+    }
+    
+    .h1 {
+    font-size: 2em
+    }
+    
+    .responsive-paragraph {
+    line-height: 1.8;
+    font-size: 22px
+    }
+    
+    .responsive-image {
+    width: 100%;
+    }
+    
+    .classic-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    .img-circle {
+    border-radius: 50%
+    }
+    
+    .img-thumbnail {
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC
+    }
+    .blurred-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.336);
+    backdrop-filter: blur(10px); /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    z-index: 1; /* Ensure the blur effect is behind the content */
+    transition: 0.3s;
+    }
+    
+      /* End My Framework */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  .mm{
+  
+      scroll-behavior: smooth;/*newwwwwwwwwwwwwwwwwwwwwwww*/
+      font-size: 62.5%;
+      scroll-padding-top: 9rem;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+  
+  }
+  
+  
+  
+  
+  
+  
+
+
+.habiba{
+    font-family: "Encode Sans Expanded", sans-serif;
+    width: 100%;
+    height: 700px;
+}
+#signUp , #logIn{
+    box-shadow: -5px 2px 54px -9px black;
+}
+.hh{
+    height: 750px;
+}
